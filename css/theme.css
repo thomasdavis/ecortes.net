@@ -1,6 +1,6 @@
     
     body {
-      background: #ebebeb;
+      background: #ebebeb url("../img/bg.png");
       font-family: Arial;
       font-size: 14px;
       padding: 0;
@@ -26,8 +26,8 @@
       margin-top: 100px;
       background: #fff url("../img/pid-unit-utama.jpg") top right no-repeat;
       background-size: 68%;
-      border-top: 3px solid #444;
-      border-bottom: 3px solid #444;
+      border-top: 3px solid #333;
+      border-bottom: 3px solid #333;
     }
     
     .header {
@@ -88,22 +88,23 @@
       background: url("../img/phone.png");
     }
     .footer {
-      width: 290px;
-      margin: auto;
+      margin-left: 40px;
     }
     .aciem {
-      background: url("../img/aciem.png");
-      width: 88px;
-      height: 68px;
+      background: url("../img/aciem.png") no-repeat;
+      width: 40px;
+      height: 40px;
       margin: auto;
       float: left;
+      background-size: 40px;
     }
     .engineers { 
       background: url("../img/engineers.png") no-repeat;
       float: left;
-      width: 88px;
-      height: 68px;
+      width: 40px;
+      height: 40px;
       margin: auto;
+      background-size: 31px;
       margin-left: 10px;
     }
     
@@ -114,15 +115,18 @@
       border-radius: 4px;
       background: url("../img/uni.jpg") no-repeat;
       float: left;
-      width: 62px;
-      height: 68px;
+      width: 28px;
+      height: 28px;
       margin: auto;
       margin-left: 10px;
+      background-size: 28px;
       
     }
     .footer {
       margin-top: 30px;
       text-align: center;
+      
+      
     }
     .profile {
       float: left;
