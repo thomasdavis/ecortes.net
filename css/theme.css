@@ -1,22 +1,33 @@
     
     body {
-      background: #f0f0f0;
+      background: #ebebeb;
       font-family: Arial;
       font-size: 14px;
       padding: 0;
       margin: 0;
     }
+    h1 {
+      
+      color: #222;
+    }
     h1, h2, h3 {
       padding: 0;
       margin: 0;
     }
+    h2 {
+      color: #444;
+    }
     .container {
+    
       background: #fff;
       padding: 20px;
       margin: 0;
-      width: 90%;
       margin: auto;
-      padding-bottom: 150px
+      margin-top: 100px;
+      background: #fff url("../img/pid-unit-utama.jpg") top right no-repeat;
+      background-size: 70%;
+      border-top: 3px solid #444;
+      border-bottom: 3px solid #444;
     }
     .header {
       margin-top: 30px;
@@ -29,21 +40,25 @@
       list-style: none;
       margin: 0;
       padding: 0;
+      background: #fff;
+      padding: 5px;
+      width: 200px;
     }
     .info-list li {
       padding: 0;
       margin: 0;
-      height: 24px;
       line-height: 24px;
+      margin-bottom: 5px;
     }
     .info-list li a {
           padding: 0;
       margin: 0;
+      margin-top: -5px;
       line-height: 24px;
       height: 24px;
       text-decoration: none;
       color: #444;
-      display: inline;
+      display: inline-block;
     }
     .info-list li a:hover {
       color: #000;
@@ -52,6 +67,8 @@
       width: 24px;
       height: 24px;
       display: inline-block;
+      float: left;
+      margin-right: 5px;
     }
     .skype {
       background: url("../img/skype.png");
