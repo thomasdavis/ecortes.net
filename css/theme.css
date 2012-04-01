@@ -25,10 +25,11 @@
       margin: auto;
       margin-top: 100px;
       background: #fff url("../img/pid-unit-utama.jpg") top right no-repeat;
-      background-size: 70%;
+      background-size: 68%;
       border-top: 3px solid #ccc;
       border-bottom: 3px solid #ccc;
     }
+    
     .header {
       margin-top: 30px;
     }
@@ -40,9 +41,10 @@
       list-style: none;
       margin: 0;
       padding: 0;
+      margin-left: 45px;
       background: #fff;
-      padding: 5px;
-      width: 200px;
+      padding: px;
+      width: 220px;
     }
     .info-list li {
       padding: 0;
@@ -68,7 +70,7 @@
       height: 24px;
       display: inline-block;
       float: left;
-      margin-right: 5px;
+      margin-right: 10px;
     }
     .skype {
       background: url("../img/skype.png");
@@ -81,4 +83,16 @@
     }
     .linkedin {
       background: url("../img/linkedin.png");
+    }
+    .phone {
+      background: url("../img/phone.png");
+    }
+    .profile {
+      float: left;
+      margin-right: 10px;
+      border: 2px solid #ebebeb;
+      background: url("../img/edwardcortes.jpg");
+      background-size: 64px;
+      height: 64px;
+      width: 64px;
     }
