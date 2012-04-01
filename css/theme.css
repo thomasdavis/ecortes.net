@@ -26,8 +26,8 @@
       margin-top: 100px;
       background: #fff url("../img/pid-unit-utama.jpg") top right no-repeat;
       background-size: 70%;
-      border-top: 3px solid #444;
-      border-bottom: 3px solid #444;
+      border-top: 3px solid #ccc;
+      border-bottom: 3px solid #ccc;
     }
     .header {
       margin-top: 30px;
