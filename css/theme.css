@@ -26,8 +26,8 @@
       margin-top: 100px;
       background: #fff url("../img/pid-unit-utama.jpg") top right no-repeat;
       background-size: 68%;
-      border-top: 3px solid #ccc;
-      border-bottom: 3px solid #ccc;
+      border-top: 3px solid #444;
+      border-bottom: 3px solid #444;
     }
     
     .header {
@@ -86,6 +86,43 @@
     }
     .phone {
       background: url("../img/phone.png");
+    }
+    .footer {
+      width: 290px;
+      margin: auto;
+    }
+    .aciem {
+      background: url("../img/aciem.png");
+      width: 88px;
+      height: 68px;
+      margin: auto;
+      float: left;
+    }
+    .engineers { 
+      background: url("../img/engineers.png") no-repeat;
+      float: left;
+      width: 88px;
+      height: 68px;
+      margin: auto;
+      margin-left: 10px;
+    }
+    
+    .uni { 
+      opacity: 0.9;
+      border: 1px solid #fff;
+      overflow: hidden;
+      border-radius: 4px;
+      background: url("../img/uni.jpg") no-repeat;
+      float: left;
+      width: 62px;
+      height: 68px;
+      margin: auto;
+      margin-left: 10px;
+      
+    }
+    .footer {
+      margin-top: 30px;
+      text-align: center;
     }
     .profile {
       float: left;
