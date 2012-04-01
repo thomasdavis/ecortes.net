@@ -1,0 +1,67 @@
+    
+    body {
+      background: #f0f0f0;
+      font-family: Arial;
+      font-size: 14px;
+      padding: 0;
+      margin: 0;
+    }
+    h1, h2, h3 {
+      padding: 0;
+      margin: 0;
+    }
+    .container {
+      background: #fff;
+      padding: 20px;
+      margin: 0;
+      width: 90%;
+      margin: auto;
+      padding-bottom: 150px
+    }
+    .header {
+      margin-top: 30px;
+    }
+    .info {
+      margin-top: 40px;
+    }
+    .info-list {
+      line-height: 24px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .info-list li {
+      padding: 0;
+      margin: 0;
+      height: 24px;
+      line-height: 24px;
+    }
+    .info-list li a {
+          padding: 0;
+      margin: 0;
+      line-height: 24px;
+      height: 24px;
+      text-decoration: none;
+      color: #444;
+      display: inline;
+    }
+    .info-list li a:hover {
+      color: #000;
+    }
+    .icon {
+      width: 24px;
+      height: 24px;
+      display: inline-block;
+    }
+    .skype {
+      background: url("../img/skype.png");
+    }
+    .twitter {
+      background: url("../img/twitter.png");
+    }
+    .email {
+      background: url("../img/email.png");
+    }
+    .linkedin {
+      background: url("../img/linkedin.png");
+    }
